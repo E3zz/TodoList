@@ -27,7 +27,7 @@ function App() {
   const handleAdd = ()=>{
     if (todo.trim() !== "") {  // Ensure empty todos are not added
       setTodos([...todos, { id: Date.now(), todo, isComplete: false }]); 
-      setTodo(""); // Clear input after adding
+      setTodo(""); // Clear input after addingxx
     }
   };
 
